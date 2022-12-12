@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import ('https://fonts.googleapis.com/css2?family=Amethysta&family=Open+Sans:wght@500;600;700&display=swap');
 export const Container = styled.main`
     width: 100%;
     display:flex;
@@ -17,21 +17,24 @@ export const Column= styled.main`
 `
 
 
-export const Info = styled.h2`
+export const Info = styled.div`
 
     img{
+
         width:300px;
+
     }
     h2{
-      
-        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-        width: 100%;
-        font-size:23px;
-        margin-left:6%;
-        padding-right:300px;
 
-    
-        font-weight:none;
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        font-size:26px;
+        padding-left:35px;
+
+        padding-right:300px;
+        font-weight:500;
+        
+        
     
     }
 
