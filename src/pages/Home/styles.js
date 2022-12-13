@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import ('https://fonts.googleapis.com/css2?family=Amethysta&family=Open+Sans:wght@500;600;700&display=swap');
+
 export const Container = styled.main`
     width: 100%;
     display:flex;
@@ -25,7 +25,7 @@ export const Info = styled.div`
 
     }
     h2{
-        font-family: 'Open Sans', sans-serif;
+
         width: 600px;
         font-size:26px;
         padding-left:35px;
@@ -40,7 +40,7 @@ export const Info = styled.div`
 export const Menu=styled.div`
 margin-top:130px;
 
-display:flex;
+display:block;
 width: 395px;
 height:350px;
 background-color:#FFFFFF;

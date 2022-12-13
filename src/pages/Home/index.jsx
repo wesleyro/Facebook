@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
+import { Input } from '../../Components/Input'
 
 import { Info, Container,Column,Menu } from './styles'
 const Home=()=>{
@@ -20,7 +21,8 @@ const Home=()=>{
 
             <Menu>
                 {/*aqui esta a caixa de login */}
-
+                <Input/>
+                
             </Menu>
                 
         </Container>
