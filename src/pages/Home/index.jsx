@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
 import { Input } from '../../Components/Input'
-
-import { Info, Container,Column,Menu } from './styles'
+import { Buttom } from '../../Components/Button'
+import { Info,Container,Column,Menu } from './styles'
 const Home=()=>{
     return(
         <>
@@ -22,6 +22,7 @@ const Home=()=>{
             <Menu>
                 {/*aqui esta a caixa de login */}
                 <Input/>
+                <Buttom/>
                 
             </Menu>
                 

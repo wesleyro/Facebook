@@ -6,9 +6,10 @@ const Input=()=>
   return (
     <>
         <InputContainer>
-        <InputText type="text" placeholder="Email ou telefone"/>
+
+          <InputText type="text" placeholder="Email ou telefone"/>
   
-        <InputText type="password" placeholder="Senha"/>
+          <InputText type="password" placeholder="Senha"/>
      
         </InputContainer>
     </>)
