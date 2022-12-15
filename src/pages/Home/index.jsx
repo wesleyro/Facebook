@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.svg'
 import { Input } from '../../Components/Input'
 import { Buttom } from '../../Components/Button'
-import { Info,Container,Column,Menu } from './styles'
+import { Info,Container,Column,Menu,TitleHighlight } from './styles'
 const Home=()=>{
     return(
         <>
@@ -24,6 +24,7 @@ const Home=()=>{
                 <Input/>
                 <Buttom/>
                 
+                <p><TitleHighlight><a href='#'>Criar uma pagina</a></TitleHighlight> para uma celebridade, uma marca ou uma empresa.</p>
             </Menu>
                 
         </Container>

@@ -48,4 +48,20 @@ border-radius: 10px;
 z-index:1;
 box-shadow: 0 0 5px rgba(0,0,0,0.2);
 -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+
+p{
+    margin-top:23px;
+    text-align:center;
+    font-size:14px;
+}
+
+`
+export const TitleHighlight=styled.a`
+
+    a{
+        color:black;
+        font-weight:600;
+        text-decoration:none;
+    }
 `
