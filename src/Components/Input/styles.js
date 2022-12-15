@@ -4,7 +4,6 @@ export const InputContainer= styled.div`
 margin-top:17px;
 `
 export const InputText= styled.input`
-    width: 100%;
     background-color:transparent;
     color:blue;
     flex:1;
@@ -41,3 +40,4 @@ export const InputText= styled.input`
 
     
 `
+
