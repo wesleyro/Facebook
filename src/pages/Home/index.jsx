@@ -3,6 +3,7 @@ import logo from '../../assets/logo.svg'
 import { Input } from '../../Components/Input'
 import { Buttom } from '../../Components/Button'
 import { Info,Container,Column,Menu,TitleHighlight } from './styles'
+import {Esqueceu} from "../Esqueceu"
 const Home=()=>{
     return(
         <>
@@ -24,7 +25,7 @@ const Home=()=>{
                 <Input/>
                 <Buttom/>
                 
-                <p><TitleHighlight><a href='#'>Criar uma pagina</a></TitleHighlight> para uma celebridade, uma marca ou uma empresa.</p>
+                <p><TitleHighlight><a href={Esqueceu}>Criar uma pagina</a></TitleHighlight> para uma celebridade, uma marca ou uma empresa.</p>
             </Menu>
                 
         </Container>
