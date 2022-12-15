@@ -1,12 +1,19 @@
 import React from 'react'
 import {ButtomContainer,ButtonEntrar,ButtonCriar,LinkEsquece,Linha} from './styles'
+import { useNavigate  } from "react-router-dom";
 const Buttom=()=> {
+  const navigate =useNavigate();
+
+  const ClickEntrar=()=>{
+    navigate("#");
+  }
+  //onClick={handleClickSignInCa}
   return (<>
     <ButtomContainer>
-        <ButtonEntrar>Entrar</ButtonEntrar>
-        <LinkEsquece><a href='#' >Esqueceu a senha?</a> </LinkEsquece>
+        <ButtonEntrar title='Entrar'>Entrar</ButtonEntrar>
+        <LinkEsquece><a href='/Esqueceu' >Esqueceu a senha?</a> </LinkEsquece>
         <Linha/>
-        <ButtonCriar>Criar nova conta</ButtonCriar>
+        <ButtonCriar title='Cadastro'>Criar nova conta</ButtonCriar>
     </ButtomContainer>
   </>)
 }
