@@ -64,4 +64,7 @@ export const TitleHighlight=styled.a`
         font-weight:600;
         text-decoration:none;
     }
+    a:hover{
+        text-decoration:underline;
+    }
 `
